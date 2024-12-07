@@ -1,0 +1,469 @@
+*{
+    
+    font-style: san-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.nav {
+    width: 90%;
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0px;
+    padding: 10px 10px;
+    justify-content: center;
+    justify-content: space-between;
+    margin:0 50px;
+}
+.logo {
+    color: red;
+}
+.navLink {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navLink a:hover{
+    color: red;
+}
+.navLink a {
+    text-decoration: none;
+    color: #fff;
+}
+.search {
+    display: flex;
+}
+.search-btn {
+    width: 70px;
+}
+/***top-container-welcome**/
+.flex-boxs{
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    
+}
+.box{
+    width: 30%;
+    height: 250px;
+    background-color: red;
+    margin: 10px;
+    padding-top:10px ;
+}
+
+.box p{
+   font-size: 15px;
+}
+.boxx{
+    width: 30%;
+    height: 250px;
+    background-color: red;
+    margin: 10px;
+    padding-top:10px ;
+    margin-top: 50px;
+    box-shadow: out;
+    
+}
+
+.boxx p{
+   font-size: 15px;
+}
+/**middle-container**/
+.hori{
+    width: 5%;   
+}
+.secsion{
+    color: red;
+    
+}
+.middle-container{
+    display: inline;
+    text-align: center;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+.pixt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 30px;
+}
+.pixt img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.pixt p{
+    font-size: 120%;
+    text-align: left;
+    line-height: 150%;
+    
+}
+.btn{
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+/**staffs-container**/
+.staffs-container{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+.staffs-gallery{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    margin:auto auto;
+}
+.staffs-gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+}
+
+.staffs-gallery:hover {
+border: 1px solid #777;
+}
+
+.staffs-gallery img {
+width: 100%;
+height: auto;
+}
+
+.desc {
+padding: 15px;
+text-align: center;
+}
+/**footer-container**/
+.footer{
+    background-color: red;
+    padding: 10px 10px;
+    
+}
+.footer-container1{
+    display: flex;
+    width: 50%;
+    margin-left: 50px;
+    gap: 10px;
+    margin: 10px 0;
+}
+.footer-detail{
+    border:1px solid #ccc ;
+    border-radius: 10px;  
+}
+.footer-detail:hover{
+    border:1 solid #777;
+}
+.footer-container1 p{
+    margin: 10px;
+}
+.flex-form{
+    display: flex;
+    justify-content: space-between;
+     
+}
+/***footer-container2**/
+.footer-container2{
+    display: flex;
+    width: 50%;
+    margin-left: 50px;
+    gap: 10px;
+    margin: 10px 0;
+}
+.footer-container2 p{
+    margin: 10px;
+}
+.footer-2-detail{
+    border:1px solid #ccc ;
+    border-radius: 10px;  
+}
+.footer-2-detail:hover{
+    border:1 solid #777;
+}
+.footer-form{
+    width: 30%;
+    height: 350px;
+    background-color: #ffff;
+    
+    line-height: 30px;  
+    margin-right:5rem ;
+    margin-top: -10rem;
+}
+.appointment{
+    background-color: blue;
+    margin: 10px;  
+}
+.fom{
+    text-align: left;
+    padding: 10px 15%;
+    margin: 5px;
+}
+.short-box{
+    width: 34.5%;
+}
+.btn2{
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+@media only screen  and (max-width: 700px){
+  .staffs-container{
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    width: 70%;
+    display: block;
+}
+.staffs-gallery{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    width: 100%;
+    margin:auto auto;
+}
+.staffs-gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+}
+.staffs-gallery:hover {
+border: 1px solid #777;
+}
+/***footer-container**/
+.footer{
+    background-color: red;
+    padding: 10px 0;
+    }
+    .footer-container1{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    padding-right: 15px;
+    gap: 10px;
+    margin: 10px 0;
+    }
+    .footer-2-detail{
+        border:1px solid #ccc ;
+        border-radius: 10px; 
+    }
+    .footer-2-detail:hover{
+        border: #777;
+    }
+    .flex-form{
+    display: block;
+    }
+
+    /***footer-container2**/
+    .footer-container2{
+        display: flex;
+        width: 80%;
+        text-align: center;
+        padding-right: 15px;
+        gap: 10px;
+        margin: 10px;
+       
+    }
+    .footer-2-detail{
+        border:1px solid #ccc ;
+        border-radius: 10px;   
+    }
+    .footer-2-detail:hover{
+        border: #777;
+    }
+    .footer-form{
+        width: 90%;
+        height: 100%;
+        background-color: #ffff;
+        border-style: groove;
+        line-height: 30px;  
+        margin: auto auto;
+    }
+    .footer-form input{
+        
+    }
+    .appointment{
+        background-color: blue;
+        margin: 10px;  
+    }
+    .fom{
+        text-align: left;
+        padding: 10px 25%;
+        margin: 5px;
+    }
+    .short-box{
+        width: 37.3%;
+        padding: 10px 0;
+    }
+    .btn2{
+        background-color: green;
+        border-radius: 10px;
+        border: none;
+        margin:20px 0 20px 0;
+        padding: 10px 20px;
+    }
+    .btn2:hover{
+        color: #ffff;
+        background-color: blue;
+    }
+    
+
+    
+}
+
+@media only screen and (max-width:600px) {
+    .nav{
+        display: none;
+     }
+     .header-bagd{
+        width: 100%;
+        height: auto;
+        background-color: blue;
+        padding: 10px 0;
+      }
+     .flex-boxs{
+        display: block;
+     }
+     .box{
+        width: 80%;
+        height: 200px;
+        background-color: green;
+        margin: 5px;
+        padding-top:10px;
+     }
+     .boxx{
+        width: 80%;
+        height: 250px;
+        background-color: red;
+        margin: 0px;
+        padding-top:10px ;
+        margin-top: 0px;
+        box-shadow: out;
+    }
+    .boxx i{
+        font-size:50px;
+    }
+    .middle-container{
+        display: block;
+        text-align: center;
+    }
+    .image-container {
+        display: block;
+        align-items: center;
+        justify-items: center;
+    }
+    .pixt img{
+        width: 300px;
+        height: auto;
+        margin: 10px;
+        
+    } 
+
+    .pixt p{
+        width: 200%;
+        font-size: 110%;
+        text-align: center;
+        line-height: 150%;
+        
+    }
+    .btn{
+        background-color: red;
+        border-radius: 10px;
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+    /**staffs-container**/
+    .staffs-container{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .staffs-gallery{
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        width: 100%;
+        margin:auto auto;
+    }
+    .staffs-gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 90%;
+    }
+    
+    
+    /***footer-container**/
+    .footer{
+    background-color: red;
+    padding: 10px 0;
+    }
+    .footer-container1{
+    display: block;
+    width: 95%;
+    text-align: center;
+    
+    margin: 20px 0;
+    }
+    .flex-form{
+    display: block;
+    }
+
+    /***footer-container2**/
+    .footer-container2{
+        display: block;
+        width: 95%;
+        text-align: center;
+       
+        margin: 20px 0;
+    }
+    .footer-form{
+        width: 80%;
+        height: 100%;
+        background-color: #ffff;
+        border-style: groove;
+        line-height: 30px;  
+        margin: auto auto;
+    }
+    .footer-form input{
+        
+    }
+    .appointment{
+        background-color: blue;
+        margin: 10px;  
+    }
+    .fom{
+        text-align: left;
+        padding: 10px 25%;
+        margin: 5px;
+    }
+    .short-box{
+        width: 45%;
+    }
+    .btn2{
+        background-color: green;
+        border-radius: 10px;
+        border: none;
+        margin:20px 0 20px 0;
+        padding: 10px 20px;
+    }
+    .btn2:hover{
+        color: #ffff;
+        background-color: blue;
+    }
+    
+        }
